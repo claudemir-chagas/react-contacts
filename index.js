@@ -1,4 +1,4 @@
-const express = required('express');
+const express = require("express");
 
 const app = express();
 
@@ -6,4 +6,4 @@ app.get('/', (req, res) => {
       res.send("Schedule Claudemir");
 });
 
-app.listen(3001);
+app.listen(3001)
